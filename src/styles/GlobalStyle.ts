@@ -7,13 +7,15 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Itim';
   }
   
 `
 export const colors = {
-  primary: "#78909C",
-  secondary: "#D9D9D9",
+  primary: "#f0d6e2",
+  secondary: "#cf90ad",
+  tertiary: "#f3bfd6",
+  quaternary: "#22061c",
   black: "#000",
   white: "#fff"
 }

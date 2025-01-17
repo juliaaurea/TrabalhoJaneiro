@@ -7,7 +7,8 @@ export const SHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5rem solid ${colors.primary};
+  border-bottom: 0.5rem solid ${colors.secondary};
+  border-bottom-style: solid;
   height: 5rem;
   figure {
     display: flex;
@@ -25,9 +26,9 @@ export const NavBar = styled.nav`
   a {
     margin: 0 1rem;
     text-decoration: none;
-    color: ${colors.black};
+    color: ${colors.quaternary};
   }
   a:hover {
-    font-weight: bold;
+    font-weight: itim;
   }
 `

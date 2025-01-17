@@ -4,6 +4,11 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const SFooter = styled.footer`
   /* Rodapé */
-  background-color: ${colors.primary};
+  background-color: ${colors.secondary};
   height: 3.5rem;
+  display: flex;
+  align-items: center;
+  img {
+    margin: 0 0.5rem;
+}
 `
