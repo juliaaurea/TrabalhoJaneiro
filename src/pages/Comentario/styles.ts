@@ -7,7 +7,6 @@ export const Section = styled.section`
   align-content: baseline;
   background-color: var(--tertiary);
   padding: 0.5rem;
-  margin: 0.5rem;
   border-radius: 0.5rem;
   min-height: 7rem;
   aside {
